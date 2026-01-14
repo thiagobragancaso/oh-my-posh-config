@@ -9,7 +9,7 @@ blocks:
       - type: path
         foreground: "#8625D2"
         properties:
-          - style: folder
+          style: folder
         style: diamond
         template: "<#9494f7> 👉 </><b>{{ .Path }}</b>"
       
@@ -41,5 +41,6 @@ blocks:
         foreground: "#FFFFFF"
         style: plain
         template: ">"
+
 
 
