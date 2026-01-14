@@ -1,6 +1,7 @@
 ---
 final_space: true
 version: 4
+"$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json"
 blocks:
   - type: prompt
     aligment: left
@@ -40,4 +41,5 @@ blocks:
         foreground: "#FFFFFF"
         style: plain
         template: ">"
+
 
