@@ -1,0 +1,43 @@
+---
+final_space: true
+version: 4
+blocks:
+  - type: prompt
+    aligment: left
+    segments:
+      - type: path
+        foreground: "#8625D2"
+        properties:
+          - style: folder
+        style: diamond
+        template: "<#9494f7> 👉 </><b>{{ .Path }}</b>"
+      
+      - type: git
+        foreground: "#11D15E"
+        style: plain
+        template: " ({{ .HEAD }})"
+
+      - type: text
+        foreground: "#FF413A"
+        style: diamond
+        template: "<#FF413A> \u25C9</>"
+
+  - type: prompt
+    aligment: right
+    newline: false
+    segments:
+      - type: python
+        style: accordion
+        foreground: "#ffd43b"
+        backgroud: "#306998"
+        template: "  {{ .Full }} "
+
+  - type: prompt
+    aligment: false
+    newline: true
+    segments:
+      - type: text
+        foreground: "#FFFFFF"
+        style: plain
+        template: ">"
+
