@@ -1,6 +1,6 @@
 ---
 final_space: true
-version: 4
+version: 2
 "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json"
 blocks:
   - type: prompt
@@ -8,6 +8,8 @@ blocks:
     segments:
       - type: path
         foreground: "#8625D2"
+        properties:
+          style: folder
         style: diamond
         template: "<#9494f7> 👉 </><b>{{ .Path }}</b>"
       
@@ -39,6 +41,7 @@ blocks:
         foreground: "#FFFFFF"
         style: plain
         template: ">"
+
 
 
 
